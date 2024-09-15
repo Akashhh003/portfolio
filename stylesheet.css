@@ -1,0 +1,329 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(206, 234, 225);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo span {
+    margin-left: 15px;
+    color: rgb(157, 0, 255);
+    font-size: 40px;
+}
+
+.header .nav {
+    margin: 30px;
+    padding: 5px;
+}
+
+.header .nav a {
+    text-decoration: none;
+    padding: 14px;
+    font-size: 20px;
+    color: black;
+    font-weight: 400;
+}
+
+.nav a:hover {
+    color: blueviolet;
+    /* transition: */
+}
+
+.home {
+    margin-top: 70px;
+    margin-left: 40px;
+}
+
+.home .content span {
+    color: rgb(157, 0, 255);
+}
+
+.home .content h2 {
+    color: rgb(74, 72, 75);
+    font-size: 60px;
+    margin: 5px;
+}
+
+h4 {
+    color: rgb(74, 72, 75);
+    font-size: 28px;
+    font-weight: bold;
+    margin: 5px;
+
+}
+
+p {
+    color: rgb(78, 83, 83);
+    /* font-weight:bold; */
+    font-size: 20px;
+    margin-top: 26px;
+}
+
+.buttons a {
+    border: 2px solid grey;
+    border-color: rgb(150, 73, 198); 
+    padding: 10px;
+    text-decoration: none;
+    /* margin: 5px; */
+    border-radius: 19px;
+    margin: 8px;
+    font-weight: 600;
+    color: rgb(150, 73, 198);
+
+}
+
+.buttons {
+    margin: 10px;
+    margin-top: 100px;
+}
+
+a:hover {
+    color: rgb(253, 0, 211);
+    /* background-color:rgb(150, 73, 198); */
+}
+
+.about {
+    text-align: center;
+    margin-top: 17%;
+    background: rgb(145, 235, 235);
+    height: 100vh;
+
+}
+
+.secondpage a {
+    text-decoration: none;
+    color: rgb(44, 43, 41);
+    /* text-align: center; */
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.content2 {
+    text-align: right;
+    /* margin-right: 12%; */
+    margin-top: 8%;
+    margin-bottom: 8%;
+    /* border: 2px solid red; */
+}
+
+.content2 span {
+    color: rgb(157, 0, 255);
+}
+
+.content2 h2 {
+    color: rgb(74, 72, 75);
+    font-size: 60px;
+    margin: 5px;
+}
+
+h3 {
+    color: rgb(74, 72, 75);
+    font-size: 28px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.intro {
+    /* border: 2px solid black; */
+    display: flex;
+    /* border: 2px solid red; */
+    /* justify-content: space-between; */
+}
+
+.intro p {
+    color: black;
+    text-align: justify;
+    width: 50%;
+    margin-left: 7%;
+    /* border: 3px solid orange; */
+
+}
+
+.intro img {
+    /* border: 2px solid orange; */
+    margin-left: 8%;
+
+}
+
+.thirdpage{
+    height:100vh;
+    width: 98.9vw;
+    /* border: 2px solid black; */
+    /* margin-top: 20px; */
+    background: rgb(164, 118, 207);
+
+}
+.work {
+    text-align: center;
+    /* margin-top: 45px; */
+    /* border: 2px solid red; */
+}
+.work a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 35px;
+    margin-top: 45px;
+    /* border: 3px solid black; */
+
+}
+.box{
+    margin-top: 12%;
+    /* border: 3px solid rgb(235, 130, 130); */
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+.box1{
+    height: 200px;
+    width: 450px;
+    /* border: 2px solid red; */
+    color: rgb(135, 183, 223);
+    font-size: xx-large;
+    font-weight: 500;
+    background-color: rgb(124, 53, 191);
+    margin-top: 20px;
+    padding: 6px;
+    border-radius: 12px;
+    box-shadow: 3px 3px 14px 3px rgb(155, 20, 196), -3px -3px 14px 3px rgb(146, 23, 199);
+    
+}
+.box2{
+    height: 200px;
+    width: 450px;
+    /* border: 2px solid red; */
+    font-size: xx-large;
+    color:rgb(135, 183, 223); 
+    font-weight: 500;
+    background-color: rgb(124, 53, 191);
+    margin-top: 20px;
+    padding: 6px;
+    border-radius: 12px;
+     box-shadow: 4px 4px 18px 4px rgb(155, 20, 196), -4px -4px 18px 4px rgb(146, 23, 199);
+    
+}
+/* .box1 p{
+    color: aliceblue;
+}
+.box2 p{
+    color: aliceblue;
+} */
+.box a{
+    color: rgb(209, 235, 235);
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1.8px solid rgb(200, 58, 164);
+    padding: 5px;
+
+}
+
+.box a:hover{
+    color: rgb(18, 205, 225);
+}
+.box p{
+    color: rgb(247, 247, 247);
+    margin: 4px;
+    margin-top: 30px;
+    padding: 4px;
+}
+.forthpage{
+    height: 100vh;
+    width: 98.8vw;
+    background: rgb(17, 17, 50);
+    border: 0.1px solid rgb(17, 17, 50);
+    
+
+    
+
+}
+.msgcontainer{
+    height:70%;
+    width: 75%;
+    /* border: 2px solid rgb(184, 28, 28); */
+    border-radius: 15px;
+    margin-left: 12%;
+    margin-top: 8%;
+    display: flex;
+    box-shadow: 4px 4px 28px 4px purple, -4px -4px 28px 4px purple;
+    
+
+}
+.left{
+    width:50%;
+    /* border: 3px solid rgb(204, 20, 20); */
+    margin: 10px;
+    padding: 45px;
+}
+
+.left h1{
+    color: rgb(200, 9, 149);
+    font-size: 50px;
+}
+
+.left p{
+    color: aliceblue;
+    font-weight: 500;
+}
+
+.right{
+    /* border: 2px solid rgb(0, 17, 255); */
+    /* margin-left: 90%; */
+    margin: 40px;
+    padding: 45px;
+    border-radius: 10px;
+    /* box-shadow: 4px 4px 28px 4px rgb(181, 40, 181), -4px -4px 28px 4px rgb(181, 20, 181); */
+
+}
+.formbuttons a{
+    /* border: 3px solid rgb(171, 13, 142); */
+    margin: 10px;
+    padding: 6px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    background: rgb(255, 196, 0);
+    font-size: larger;
+    font-weight: 600;
+}
+.formbuttons{
+    margin-top:14%;
+}
+.endpage{
+    text-align: center;
+}
+
+ #username{
+    background: rgb(17, 17, 50);
+    padding: 15px;
+    border: 0.8px solid white;
+    border-radius: 12px ;
+    width: 20em;
+    color: aliceblue;
+}
+#email{
+    margin-top: 15px;
+    background: rgb(17, 17, 50);
+    padding: 15px;
+    border: 0.8px solid white;
+    border-radius: 12px ;
+    width: 20em;
+    color: aliceblue;
+}
+#message{
+     margin-top: 15px;
+    background: rgb(17, 17, 50);
+    padding: 15px;
+    border: 0.8px solid white;
+    border-radius: 12px ;
+    height: 100px;
+    width: 20em;
+    color: aliceblue;    
+}
+
